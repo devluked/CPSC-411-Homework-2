@@ -73,13 +73,13 @@ class ClaimService (val ctx : CustomActivity){
     fun addClaim(jsonstr : String) {
         val client = AsyncHttpClient()
         val requestUrl = "http://192.168.50.19:8080/ClaimService/add"
-       val entity = StringEntity(jsonstr)
+        val entity = StringEntity(jsonstr)
 
         // cxt is an Android Application Context object
         client.post(ctx, requestUrl, entity,"application/json", addServiceRespHandler())
     }
 
-    fun getAll()  {
+  /*  fun getAll()  {
         //var pList : List<Person> = mutableListOf()
         // Call Http
         //clientObj = clObj
@@ -89,5 +89,5 @@ class ClaimService (val ctx : CustomActivity){
         Log.d("Claim Service", "About Sending the HTTP Request. ")
         //
         client.get(requestUrl, GetAllServiceRespHandler())
-    }
+    }*/
 }

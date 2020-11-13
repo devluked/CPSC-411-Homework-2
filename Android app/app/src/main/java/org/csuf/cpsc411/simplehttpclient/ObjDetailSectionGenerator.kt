@@ -16,6 +16,7 @@ class ObjDetailSectionGenerator(val ctx : Context) {
 
         layoutObj = LinearLayout(ctx)
 
+
         val lParams = ViewGroup.LayoutParams(
             ViewGroup.LayoutParams.MATCH_PARENT,
             ViewGroup.LayoutParams.WRAP_CONTENT)

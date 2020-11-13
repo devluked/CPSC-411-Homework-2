@@ -7,7 +7,7 @@ import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.TextView
 
-class FieldValueViewGenerator(val ctx : Context, val labelName : String) {
+/*class FieldValueViewGenerator(val ctx : Context, val labelName : String) {
     // lateinit var layoutObj : LinearLayout
 
     fun generate() : LinearLayout {
@@ -33,4 +33,4 @@ class FieldValueViewGenerator(val ctx : Context, val labelName : String) {
 
         return layoutObj
     }
-}
+}*/

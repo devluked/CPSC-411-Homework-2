@@ -38,11 +38,7 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="ProjectId" id="1iIUgt1pNbxPsuxTf9sgnTboGqW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -53,7 +49,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-10-06T23:48:31.081Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SimpleHttpClient" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
   <component name="RunManager">
@@ -130,10 +126,6 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="999" y="345" key="#app" timestamp="1604710764586">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="999" y="345" key="#app/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1604710764586" />
     <state x="488" y="89" key="#com.intellij.ide.util.MemberChooser" timestamp="1602199296717">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -180,14 +172,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="171" y="99" width="1090" height="484" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.728@0.0.1366.728" timestamp="1602028191735" />
-    <state x="707" y="427" key="com.intellij.ide.util.TipDialog" timestamp="1604620647514">
+    <state x="707" y="427" key="com.intellij.ide.util.TipDialog" timestamp="1605052742973">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="377" y="222" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601764161035" />
-    <state x="707" y="427" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1604620647514" />
-    <state x="1583" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1604706769673">
+    <state x="707" y="427" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1605052742973" />
+    <state x="1583" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1605262422590">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1583" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1604706769673" />
+    <state x="1583" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1605262422590" />
   </component>
 </project>
