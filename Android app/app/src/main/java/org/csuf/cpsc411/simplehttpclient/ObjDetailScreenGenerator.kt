@@ -58,9 +58,10 @@ class ObjDetailScreenGenerator(val ctx : Context) {
         layoutObj.addView(nLayout)
 
         var status = TextView(ctx)
-        status.setPadding(0,0,0,800)
-        status.text = "Status: <${ClaimService.addServiceRespHandler::onSuccess}>"
-        status.gravity = Gravity.CENTER
+        status.text = "Status:      <Status Message>"
+        status.setId(R.id.status)
+        status.setPadding(100,0,0,800)
+        status.gravity = Gravity.LEFT
         status.setTextColor(Color.BLACK)
         layoutObj.addView(status, lParams)
 

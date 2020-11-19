@@ -24,10 +24,13 @@ class CustomActivity : AppCompatActivity() {
         titleView.setText("")
         dateView.setText("")
 
-        var dateText = findViewById<EditText>(R.id.date)
+    }
 
+    fun refreshStatus(stat : String) {
+        val statusView : TextView = findViewById(R.id.status)
+        val response = stat
 
-
+        statusView.setText("Status:        <${response}>")
     }
 
     fun returnTitle() : String {

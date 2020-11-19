@@ -1,7 +1,5 @@
 package org.csuf.cpsc411.simplehttpclient
 
-import android.app.Activity
-import android.content.Context
 import android.util.Log
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
@@ -53,9 +51,10 @@ class ClaimService (val ctx : CustomActivity){
             statusCode: Int,
             headers: Array<out Header>?,
             responseBody: ByteArray?
-        ) {
+        )   {
             if (responseBody != null) {
                 val respStr = String(responseBody)
+                ctx.refreshStatus("Claim added successfully.")
                 Log.d("Claim Service", "The add Service response : ${respStr}")
             }
         }
@@ -66,7 +65,7 @@ class ClaimService (val ctx : CustomActivity){
             responseBody: ByteArray?,
             error: Throwable?
         ) {
-
+            ctx.refreshStatus("Claim failed to be added.")
         }
     }
 
