@@ -9,6 +9,12 @@ import android.widget.TextView
 
 class LableColumnGenerator(val ctx : Context) {
 
+    fun pxtodp(px : Int) : Int {
+        var density = ctx.getResources().getDisplayMetrics().density
+        var paddingDp = (px*density).toInt();
+
+        return paddingDp
+    }
 
     fun generate() : LinearLayout {
 
@@ -27,16 +33,18 @@ class LableColumnGenerator(val ctx : Context) {
         lbParams.weight = 1.0F
         var lbl = TextView(ctx)
         lbl.text = "Claim Title"
-        lbl.gravity = Gravity.CENTER
+        lbl.gravity = Gravity.LEFT
         lbl.setTextColor(Color.BLACK)
-        lbl.setPadding(0,135,0,0)
+
+
+        lbl.setPadding(pxtodp(10),pxtodp(55),0,0)
        // lbl.setBackgroundColor(Color.YELLOW)
         layoutObj.addView(lbl, lbParams)
         lbl = TextView(ctx)
         lbl.text = "Date"
-        lbl.gravity = Gravity.CENTER
+        lbl.gravity = Gravity.LEFT
         lbl.setTextColor(Color.BLACK)
-        lbl.setPadding(0,50,0,0)
+        lbl.setPadding(pxtodp(12),pxtodp(32),0,0)
 
         // lbl.setBackgroundColor(Color.YELLOW)
         layoutObj.addView(lbl, lbParams)

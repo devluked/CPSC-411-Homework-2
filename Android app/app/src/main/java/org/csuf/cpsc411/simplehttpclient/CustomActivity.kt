@@ -26,6 +26,7 @@ class CustomActivity : AppCompatActivity() {
 
     }
 
+
     fun refreshStatus(stat : String) {
         val statusView : TextView = findViewById(R.id.status)
         val response = stat

@@ -12,6 +12,12 @@ class ObjDetailScreenGenerator(val ctx : Context) {
     // Create a linearlayout object
     lateinit var layoutObj : LinearLayout
 
+    fun pxtodp(px : Int) : Int {
+        var density = ctx.getResources().getDisplayMetrics().density
+        var paddingDp = (px*density).toInt();
+
+        return paddingDp
+    }
 
     fun generate() : LinearLayout {
 
@@ -57,10 +63,12 @@ class ObjDetailScreenGenerator(val ctx : Context) {
         //
         layoutObj.addView(nLayout)
 
+
+        layoutObj.setBackgroundColor(Color.WHITE)
         var status = TextView(ctx)
-        status.text = "Status:      <Status Message>"
+        status.text = "Status:           <Status Message>"
         status.setId(R.id.status)
-        status.setPadding(100,0,0,800)
+        status.setPadding(pxtodp(11),0,0,0)
         status.gravity = Gravity.LEFT
         status.setTextColor(Color.BLACK)
         layoutObj.addView(status, lParams)

@@ -16,7 +16,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_6_API_30" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_API_29" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -45,8 +45,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_6_API_30" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-10-06T23:48:31.081Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3_API_29" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-11-20T19:41:11.556Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SimpleHttpClient" />
@@ -176,11 +176,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="171" y="99" width="1090" height="484" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.728@0.0.1366.728" timestamp="1602028191735" />
-    <state x="707" y="427" key="com.intellij.ide.util.TipDialog" timestamp="1605656827983">
+    <state x="707" y="427" key="com.intellij.ide.util.TipDialog" timestamp="1605830167885">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="377" y="222" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601764161035" />
-    <state x="707" y="427" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1605656827983" />
+    <state x="707" y="427" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1605830167885" />
     <state x="1583" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1605754646570">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

@@ -10,7 +10,6 @@ import androidx.core.view.marginTop
 
 class ObjDetailSectionGenerator(val ctx : Context) {
     lateinit var layoutObj : LinearLayout
-    lateinit var layoutObj1 : LinearLayout
 
     fun generate() : LinearLayout {
 

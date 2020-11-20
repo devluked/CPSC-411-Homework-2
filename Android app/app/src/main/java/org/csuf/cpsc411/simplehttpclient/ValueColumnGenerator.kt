@@ -10,9 +10,16 @@ import android.widget.LinearLayout
 import android.widget.TextView
 
 class ValueColumnGenerator(val ctx : Context) {
+
+    fun pxtodp(px : Int) : Int {
+        var density = ctx.getResources().getDisplayMetrics().density
+        var paddingDp = (px*density).toInt();
+
+        return paddingDp
+    }
+
     fun generate() : LinearLayout {
         val layoutObj = LinearLayout(ctx)
-
 
         val tParams = LinearLayout.LayoutParams(
             ViewGroup.LayoutParams.WRAP_CONTENT,
@@ -22,6 +29,7 @@ class ValueColumnGenerator(val ctx : Context) {
         var tlbl = TextView(ctx)
         tlbl.setTypeface(null, Typeface.BOLD)
         tlbl.text = "Please Enter Claim Information"
+        tlbl.setPadding(0,0,pxtodp(40),0)
         tlbl.setTextSize(18F)
         tlbl.gravity = Gravity.CENTER
         tlbl.setTextColor(Color.BLACK)
@@ -40,7 +48,7 @@ class ValueColumnGenerator(val ctx : Context) {
             ViewGroup.LayoutParams.MATCH_PARENT,
             ViewGroup.LayoutParams.WRAP_CONTENT)
        // vParams.topMargin = 5
-        vParams.topMargin = 50
+        vParams.topMargin = pxtodp(15)
         var value = EditText(ctx)
         value.id = R.id.claim_title
         value.setHint("Enter Claim Title")

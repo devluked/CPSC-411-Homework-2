@@ -54,7 +54,7 @@ class ClaimService (val ctx : CustomActivity){
         )   {
             if (responseBody != null) {
                 val respStr = String(responseBody)
-                ctx.refreshStatus("Claim added successfully.")
+                ctx.refreshStatus("Claim added successfully")
                 Log.d("Claim Service", "The add Service response : ${respStr}")
             }
         }
@@ -65,7 +65,7 @@ class ClaimService (val ctx : CustomActivity){
             responseBody: ByteArray?,
             error: Throwable?
         ) {
-            ctx.refreshStatus("Claim failed to be added.")
+            ctx.refreshStatus("Claim failed to be added")
         }
     }
 
